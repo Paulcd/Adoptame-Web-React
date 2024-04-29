@@ -12,6 +12,11 @@ export default function NavBar() {
 
   function botonMenu() {
     setBtnState(btnState => !btnState)
+    if (!btnState) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
   }
 
   let toggleClassCheck = btnState ? ' nav-menu-visible' : '';
