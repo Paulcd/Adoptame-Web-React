@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
 import Logo from '../Logo/Logo';
 import './NavBar.css';
+import SliderComponent from '../SliderComponent/SliderComponent.jsx'
 
 export default function NavBar() {
 
